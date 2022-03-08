@@ -1,0 +1,129 @@
+.logoSearch{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  
+}
+.search{
+    width: 20rem;
+}
+.menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heroContentSection{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.herotitle{
+    text-align: center;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
+    
+    padding-left: 0.5rem;
+}
+.herosubtitle{
+    margin-top: -20%;
+    margin-right: 10%;
+}
+.siteContentSection1{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+#ffloor,.siteContentSec,.siteContentSection2{
+    display: flex;
+    flex-direction:column-reverse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.col3,.awardphotos{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contentSection{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: auto;
+
+}
+.blueBoxContent, .content{
+    height: auto;
+    width: 100%;
+}
+@media screen and (max-width: 550px) {
+    #hcontent{
+        display: none;
+    }
+  }
+.imgwithBlueContent{
+    visibility: hidden;
+}
+
+.footerSection{
+    height: 100rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#ht{
+    padding-bottom: 4rem;
+}
+.footerContentSection,.blueBoxContentcontact,.infosection,.photosContainer,.siteContentSection1{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: auto;
+}
+#hcol1,#hcol2,#hcol3,.glancecol{
+    width: 90%;
+}
+
+.container{
+width: 80%;
+}
+.footerrightcol{
+    width: 70%;
+    align-items: center;
+}
+.mapphoto{
+    width: 90%;
+}
+.blueBoxContentabout{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    height: auto;
+}
+.mimg{
+    width: inherit;
+}
+.awardphoto{
+    width: 220px;
+    align-self: center;
+}
+.sectitle{
+    text-align:center;
+}

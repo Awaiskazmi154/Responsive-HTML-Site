@@ -1,0 +1,586 @@
+:root {
+    --background-color: #ffffff;
+  }
+
+html, body{
+    height:100%;
+}
+
+body{
+    width: 100%;
+    max-width: 1440 px;
+    margin: 0 auto;
+    background-color: var(--background-color);
+    box-sizing: border-box;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.headerSection{
+    min-height: 50rem;
+    background-image: 
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(81, 38, 174, 0.73)),
+    url("./images/image1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.headerSectionfacilities{
+  min-height: 50rem;
+  background-image: 
+  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(81, 38, 174, 0.73)),
+  url("./images/image3.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.headerSectionabout{
+  min-height: 50rem;
+  background-image: 
+  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(81, 38, 174, 0.73)),
+  url("./images/image6.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.headerSectioncontact{
+  min-height: 50rem;
+  background-image: 
+  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(81, 38, 174, 0.73)),
+  url("./images/image2.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.headerSectionreferences{
+  min-height: 50rem;
+  background-image: 
+  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(81, 38, 174, 0.73)),
+  url("./images/image5.jpg");
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+.contentSection {
+    max-width: 70rem;
+    min-height: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+.siteContentSection1{
+
+    max-width: 70rem;
+    min-height: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infosection{
+
+  max-width: 70rem;
+  min-height: 30rem;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.info{
+
+  min-width: 15rem;
+  min-height: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3%;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 2rem;
+}
+
+.mapContentSection{
+
+  max-width: 70rem;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.siteContentSec{
+
+  max-width: 70rem;
+  min-height: 50rem;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.heroContentSection{
+
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: -10%;
+}
+
+.siteContentSection2{
+
+    max-width: 70rem;
+    min-height: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footerContentSection{
+
+  max-width: 70rem;
+  max-height: 28rem;
+  margin-left: auto;
+  margin-right: auto;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+.contentSectionPhotos{
+    max-width: 70rem;
+    min-height: 50rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footerSection{
+    background-color:#25517a;
+}
+.logoSearch{
+        padding-top: 3rem;
+        flex-direction: row;
+      
+}
+.innerClass{
+
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search{
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    background-color: #FFC839;
+    color: black;
+    float:right;
+    width: 30rem;
+  }
+  .logo{
+      float:left;
+      width: 20rem;
+
+  }
+  .search ::placeholder {
+    color:black;
+    font-size: 2rem;
+  }
+  .menu{
+margin-top: 12rem;
+background-color: black;
+padding: 20px 0px 20px 0px;
+
+}
+  
+  a {
+      font-size: 2rem;
+      color:white;
+      text-decoration: none;
+      padding: 20px 43px 20px 20px;
+}
+a:hover {
+    background-color: #041856;
+    color: white;
+  }
+ a:visited {
+    background-color: #041856;
+    color: white;
+  }
+  .herotitle{
+    font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-size: 3rem;
+    font-weight: 700;
+    width:59.5%;
+
+  }
+  .sectitle{
+    font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:black;
+    font-size: 3rem;
+    font-weight: 700;
+    max-width: 70rem;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+
+  }
+  .herotext{
+    font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-size: 2.7rem;
+    font-weight: 700;
+
+  }
+  .herosubtitle{
+    font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:white;
+    font-size: 1.4rem;
+    float: right;
+    margin-top: -5%;
+  }
+
+
+.content{
+    position: absolute;
+    margin-top: 7%;
+}
+  .blueBoxContent{
+    font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #25517a;
+      color: white;
+        z-index: 1;
+        width: 60%;
+        height:40rem;
+        float: left;
+  }
+  .blueBoxContentabout{
+    font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #25517a;
+      color: white;
+      height:35rem;
+      width: 100%;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-top: 2rem;
+  }
+  .blueBoxContentcontact{
+      background-color: #25517a;
+      height:45rem;
+      width: 100%;
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding-top: 2rem;
+  }
+
+  .blueBoxTableContent{
+    font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: white;
+      color: white;
+        height:40rem;
+  display:flex;
+  justify-content: center;
+
+  }
+  .imagewithcontent{
+  z-index: 2;
+  margin-left: 50%;
+  margin-top: 20%;
+  width: 100%;
+    
+  }
+  .imgwithBlueContent{
+    float: right;
+    padding: 10rem;
+  }
+  .imgwithBlueCon{
+    float: right;
+    padding-top: 15rem; }
+  .blueBoxContent p{
+      padding: 30px 150px 30px 30px;
+  }
+  .topContent{
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+      color: white;
+      font-size: 1.4rem;
+}
+.boxContent{
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    color: white;
+    font-size: 1.4rem;
+    padding: 2rem;
+}
+.bottomContent{
+    font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+      color: white;
+      font-size: 1.5rem;
+}
+
+.title{
+    font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    color: black;
+    font-weight: 600;
+    font-size: 2.3rem;
+    padding-left: 1rem;
+}
+
+.contacttitle{
+  font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+  color: white;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.awardtitle{
+  font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+  color: black;
+  font-weight: 600;
+  font-size: 2.3rem;
+  padding-left: 1rem;
+  text-align: center;
+}
+.awardphotos{
+  display:flex;
+      flex-direction: row;
+      justify-content: center;
+}
+.awardphoto{
+  padding: 2rem;
+}
+
+.blueboxtitle{
+  font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+  color: white;
+  font-weight: 600;
+  font-size: 2.3rem;
+  padding-left: 1rem;
+}
+.footertitle{
+  font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    color: white;
+    font-weight: 600;
+    font-size: 2.3rem;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.photosContainer{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.photo{
+    width: 48%;
+    padding: 1%;
+    
+}
+.glancephoto{
+  padding: 20% 0% 10% 10%;
+  
+}
+.gfloorphoto{
+  padding: 40% 0% 10% 0%;
+  margin-left: -25%;
+  
+}
+.gphoto{
+  margin-top: -10%;
+  height:100%;
+}
+.col1{
+    padding: 2rem 0.5rem 2rem 2rem;
+}
+.mapcol{
+
+    padding: 2rem 0.5rem 2rem 2rem;
+
+}
+.blueaddressbox{
+    background-color: #0984e3;
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    color: black;
+    font-size: 1.4rem;
+
+}
+.whitebox{
+  background-color: white;
+  display:flex;
+  flex-direction: column;
+  padding: 2rem;
+
+}
+.addresstext{
+    padding: 2rem;
+    line-height: 1.6;
+}
+.traveltext{
+    font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    color: black;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    padding: 0 1rem 1rem 1rem;
+    
+}
+.traveltextonblue{
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+  color: white;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  padding: 0 1rem 1rem 1rem;
+  
+}
+.footerlinkstext{
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+  color: white;
+  font-size: 1.3rem;
+  line-height: 2.5;
+  padding: 0 1rem 1rem 1rem;
+  
+}
+.footerbottomtext{
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+  color: white;
+  font-size: 1.1rem;
+  padding: 1rem 1rem 1rem 1rem;
+  text-align: center;
+}
+.col2{
+    width:43%;
+    margin-left:-10%;
+    padding: 2rem 0 2rem 2rem;
+}
+.aboutcol{
+  margin-left:5%;
+  margin-top: 12%;
+}
+.col3{
+    width:30%;
+    margin-left:-10%;
+    padding: 2rem 1.3rem 2rem 2rem;
+}
+.glancecol{
+    width:50%;
+    padding: 2rem 1.3rem 2rem 2rem;
+}
+.footerimage{
+  width: 90%;
+  padding: 1.5rem 1rem 1rem 0rem;
+}
+.footerleftcol{
+  padding: 2rem 0.5rem 2rem 0rem;
+}
+.footermidcol{
+  width: 97%;
+  padding: 2rem 0rem 1rem 1rem;
+  margin-right: -5%;
+}
+.footerrightcol{
+  padding-top: 2.3rem ;
+  padding-left: 3rem ;
+}
+.footertext{
+  font-family: 'Roboto', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    color: white;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+table {
+  width:80%;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: center;
+}
+#t01 tr:nth-child(even) {
+  background-color: #eee;
+}
+#t01 tr:nth-child(odd) {
+ background-color: #fff;
+}
+#t01 th {
+  background-color: #25517a;
+  color: white;
+}
+#t01 tr {
+  color: black;
+}
+.mapphoto{
+  margin-left: 4%;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #F0BE3B;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+ 
+input[type=submit]:hover {
+  background-color: #00DCFF;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  width: 200%;
+  margin-left: 5%;
+  margin-bottom: 5%;
+}
+.icon1{
+  width: 37%;
+  align-self: center;
+}
+.icon2{
+  width: 30%;
+  align-self: center;
+}
+.icon3{
+  width: 24%;
+  align-self: center;
+  padding-bottom: 4.5rem;
+}
+.infotitle{
+  font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+  color: black;
+  font-weight: 600;
+  font-size: 2rem;
+  text-align: center;
+}
+.infosubtitle{
+  font-family: 'Nunito', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+  color: black;
+  font-weight: 400;
+  font-size: 1.6rem;
+  text-align: center;
+}
